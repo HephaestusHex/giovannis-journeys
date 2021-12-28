@@ -1,0 +1,36 @@
+body {
+    background-color: #5497A7;
+    color: #F6F5AE;
+}
+
+div {
+    border: .5rem solid #23232e;
+    background-color: #DBAD6A;
+    border-radius: .5rem;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+p {
+    margin: 10px;
+    color: #294861;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.blog-text {
+    display: none;
+}
+
+.blog-button {
+    border-radius: 16rem;
+    border: none;
+    background-color: #db6a8c;
+    color: #F6F5AE;
+}
+
+.blog-button:hover {
+    cursor: pointer;
+}

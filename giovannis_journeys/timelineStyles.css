@@ -1,0 +1,23 @@
+img {
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+body {
+    background-color: #5497A7;
+    color: #F6F5AE;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    border: .2rem solid #23232e;
+    background-color: #DBAD6A;
+    border-radius: .5rem;
+    width: 85%;
+    padding: 5px;
+}

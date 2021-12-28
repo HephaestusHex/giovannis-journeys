@@ -1,0 +1,13 @@
+*, *::before, *::after {
+    font-family: 'VT323', monospace;
+}
+
+li {
+    font-size: 60px;
+    list-style-type: square;
+}
+
+body {
+    background-color: #5497A7;
+    color: #F6F5AE;
+}
