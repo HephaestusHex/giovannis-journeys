@@ -33,4 +33,6 @@ h1 {
 
 .blog-button:hover {
     cursor: pointer;
+    color: #ffffe6;
+    background-color: #ff8eb0;
 }
