@@ -29,7 +29,7 @@ h1 {
     border: none;
     background-color: #db6a8c;
     color: #F6F5AE;
-    transition: .25rem;
+    transition: .25ms;
 }
 
 .blog-button:hover {
