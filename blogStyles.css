@@ -29,11 +29,11 @@ h1 {
     border: none;
     background-color: #db6a8c;
     color: #F6F5AE;
-    transition-duration: 1000ms;
 }
 
 .blog-button:hover {
     cursor: pointer;
     color: #ffffe6;
     background-color: #ff8eb0;
+    transition-duration: 500ms;
 }
