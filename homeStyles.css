@@ -17,13 +17,14 @@ h2 {
     background: #eee;
     padding: 8px 24px;
     border-radius: 16px;
+    animation: bob 1s ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 div:nth-child(1) {
     background-image: url("mathew.png");
     background-attachment: fixed;
     background-size: cover;
-    animation: bob 1s ease-in-out;
 }
 
 div:nth-child(2) {
