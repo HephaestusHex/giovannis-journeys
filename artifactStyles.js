@@ -3,5 +3,5 @@ const tweets = ["tweet_1", "tweet_2", "tweet_3", "tweet_4", "tweet_5", "tweet_6"
 
 tweetsDisplay.addEventListener("click", function() {
     console.log("hello")
-    tweetsDisplay.src = tweets[1];
+    tweetsDisplay.src = "tweet_2";
 });
