@@ -23,6 +23,7 @@ div:nth-child(1) {
     background-image: url("mathew.png");
     background-attachment: fixed;
     background-size: cover;
+    animation: bob 1s ease-in-out;
 }
 
 div:nth-child(2) {
@@ -37,4 +38,14 @@ div:nth-child(2) {
 main {
     margin-left: 5rem;
     padding: 0rem;
+}
+
+@keyframes bob {
+    50% {
+        transform: translate(0, -10%);
+    }
+
+    100% {
+        transform: translate(0, 10%);
+    }
 }
