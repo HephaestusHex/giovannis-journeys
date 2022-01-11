@@ -17,8 +17,6 @@ h2 {
     background: #eee;
     padding: 8px 24px;
     border-radius: 16px;
-    animation: bob 1s ease-in-out;
-    animation-iteration-count: infinite;
 }
 
 div:nth-child(1) {
@@ -39,6 +37,11 @@ div:nth-child(2) {
 main {
     margin-left: 5rem;
     padding: 0rem;
+}
+
+#bobing-title {
+    animation: bob 1s ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bob {
