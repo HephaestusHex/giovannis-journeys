@@ -3,7 +3,11 @@ var tweets = ["tweet_1.png", "tweet_2.png", "tweet_3.png", "tweet_4.png", "tweet
 var num = 0
 
 tweetsDisplay.addEventListener("click", function() {
-    num++;
+    if (num => 7) {
+        num = 0;
+    } else {
+        num++;
+    }
     console.log(num)
     tweetsDisplay.src = `${tweets[num]}`;
 });
