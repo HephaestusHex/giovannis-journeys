@@ -42,11 +42,11 @@ main {
 }
 
 @keyframes bob {
-    50% {
+    25% {
         transform: translate(0, -10%);
     }
 
-    100% {
+    75% {
         transform: translate(0, 10%);
     }
 }
