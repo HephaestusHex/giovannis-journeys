@@ -44,13 +44,16 @@ main {
 @keyframes bob {
     25% {
         transform: translate(0, -10%);
+        transform: rotate(90);
     }
 
     75% {
         transform: translate(0, 10%);
+        transform: rotate(90);
     }
 
     100%{
         transform: translate(0, 0);
+        transform: rotate(90);
     }
 }
