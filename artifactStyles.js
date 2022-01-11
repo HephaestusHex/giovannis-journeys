@@ -8,6 +8,5 @@ tweetsDisplay.addEventListener("click", function() {
     } else {
         num++;
     }
-    console.log(num)
     tweetsDisplay.src = `${tweets[num]}`;
 });
