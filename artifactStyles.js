@@ -3,5 +3,5 @@ const tweets = ["tweet_1.png", "tweet_2.png", "tweet_3.png", "tweet_4.png", "twe
 
 tweetsDisplay.addEventListener("click", function() {
     console.log("hello")
-    tweetsDisplay.styles.background = `url(${tweets[1]})`;
+    tweetsDisplay.styles.backgroundImage = `url(${tweets[1]})`;
 });
