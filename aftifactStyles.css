@@ -26,6 +26,6 @@ img:nth-child(2) {
     width: 90%;
 }
 
-img:nth-child(2):hover {
+#tweets:hover {
     cursor: pointer;
 }
