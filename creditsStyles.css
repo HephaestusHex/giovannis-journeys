@@ -2,7 +2,7 @@
     font-family: 'VT323', monospace;
 }
 
-li {
+li, a {
     font-size: 60px;
     list-style-type: square;
 }
