@@ -24,6 +24,6 @@ img {
     width: 400px;
 }
 
-#image::hover {
+#image:hover {
     cursor: pointer;
 }
