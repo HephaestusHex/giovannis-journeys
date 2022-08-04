@@ -44,6 +44,12 @@ main {
     animation-iteration-count: infinite;
 }
 
+#top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 @keyframes bob {
     25% {
         transform: translate(0, -10%);
